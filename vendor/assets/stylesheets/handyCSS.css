@@ -1251,6 +1251,13 @@ textarea {
 .margin-right-minus-200 {
   margin-right: -200px !important; }
 
+/* pull classes */
+.float-left, .pull-left {
+  float: left; }
+
+.float-right, .pull-right {
+  float: right; }
+
 /* e.g: margin-10, padding-10 */
 .padding-2 {
   padding: 2px !important; }
@@ -1721,6 +1728,13 @@ textarea {
 
 .padding-right-minus-200 {
   padding-right: -200px !important; }
+
+/* pull classes */
+.float-left, .pull-left {
+  float: left; }
+
+.float-right, .pull-right {
+  float: right; }
 
 /*  To align text to Right / Left  */
 .text-align-center {
