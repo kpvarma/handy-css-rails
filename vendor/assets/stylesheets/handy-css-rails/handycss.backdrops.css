@@ -20,7 +20,7 @@
 #backdrop-holder {
   background-size: cover;
   background-repeat: no-repeat;
-  /*    color: inherit;*/
+  /*		color: inherit;*/
   min-height: 800px;
   position: fixed;
   width: 100%;
@@ -165,17 +165,17 @@
 }
 
 /* Add a new image based theme here.
-  .backdrop-picture-name {
-    @include linear-gradient(#topColor, #botomColor);
-    background-image: url(../images/backdrops/pictures/image-name.jpg);
-  }
+	.backdrop-picture-name {
+		@include linear-gradient(#topColor, #botomColor);
+		background-image: url(../images/backdrops/pictures/image-name.jpg);
+	}
  Don't forget to add the image to the above mentioned folder.
  Now you can use
-  <body class="backdrop-picture theme-default">
-    <div id="backdrop-holder" class="backdrop-picture-image-name">
-      Content Goes here.
-    </div>
-  </body>
+	<body class="backdrop-picture theme-default">
+		<div id="backdrop-holder" class="backdrop-picture-image-name">
+			Content Goes here.
+		</div>
+	</body>
 */
 /* Pattern based backdrops */
 .backdrop-pattern #backdrop-holder::after {
@@ -272,18 +272,18 @@
 
 /* Add a new dark colored gradient themes here.
 .backdrop-pattern .backdrop-pattern-xxxx::after, .backdrop-pattern-preview-xxxx::after {
-    content: '';
-    background: url(../images/backdrops/patterns/xxxx.png) repeat center center;
-    display: block;
-    opacity: 0.1;
-    height: 100%;
-  }
- Now you can use
-  <body class="backdrop-pattern theme-default">
-    <div id="backdrop-holder" class="backdrop-pattern-xxxx backdrop-pattern-some-shade">
-      Content Goes here.
-    </div>
-  </body>
+		content: '';
+		background: url(../images/backdrops/patterns/xxxx.png) repeat center center;
+		display: block;
+		opacity: 0.1;
+		height: 100%;
+	}
+ Now you can use 
+	<body class="backdrop-pattern theme-default">
+		<div id="backdrop-holder" class="backdrop-pattern-xxxx backdrop-pattern-some-shade">
+			Content Goes here.
+		</div>
+	</body>
 */
 .backdrop-shade-bootstrap-violet, .backdrop-shade-preview-bootstrap-violet {
   background-color: #6d3353;
@@ -527,27 +527,27 @@
 
 /* Add a new dark colored gradient themes here.
  .backdrop-shade-some-shade { background-color:some-shade;}
-
-  1.Now you can use without pattern or picture
-  <body class="theme-default">
-    <div id="backdrop-holder" class="backdrop-shade-olive-green">
-      Content Goes here.
-    </div>
-  </body>
-
-  2.Now you can use with pattern
-  <body class="backgrop-pattern backdrop-pattern-01 theme-default">
-    <div id="backdrop-holder" class="backdrop-shade-olive-green">
-      Content Goes here.
-    </div>
-  </body>
-
-  3.Now you can use with picture as a fallback background color
-  <body class="backdrop-picture theme-default">
-    <div id="backdrop-holder" class="backdrop-shade-olive-green backdrop-picture-mountains">
-      Content Goes here.
-    </div>
-  </body>
+ 	
+	1.Now you can use without pattern or picture
+	<body class="theme-default">
+		<div id="backdrop-holder" class="backdrop-shade-olive-green">
+			Content Goes here.
+		</div>
+	</body>
+	
+	2.Now you can use with pattern
+	<body class="backgrop-pattern backdrop-pattern-01 theme-default">
+		<div id="backdrop-holder" class="backdrop-shade-olive-green">
+			Content Goes here.
+		</div>
+	</body>
+	
+	3.Now you can use with picture as a fallback background color
+	<body class="backdrop-picture theme-default">
+		<div id="backdrop-holder" class="backdrop-shade-olive-green backdrop-picture-mountains">
+			Content Goes here.
+		</div>
+	</body>
 */
 .theme-default .palette.shadowed:hover {
   -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
@@ -628,36 +628,36 @@
   box-shadow: inset 0 1px 0 #ffffff;
 }
 
-/*  .palette-content {
-    background-color: white;color:#4b4b4b;
-    :hover, .selected { background-color: #fff; }
-  }
-  .palette-outer {
-    background-color: white;color:#4b4b4b;
-    :hover, .selected { background-color: #fff; }
-  }
-  .palette-inner {
-    background-color: white;color:#4b4b4b;
-    :hover, .selected { background-color: #fff; }
-  }
-  .palette-token {
-    background-color: white;color:#4b4b4b;
-    a { color:#4b4b4b !important}
-    :hover, .selected { background-color: #fff; }
-  }
-  .palette-shadow {
-    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-  }
-  .palette-rounded { -webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px; }
+/*	.palette-content { 
+		background-color: white;color:#4b4b4b; 
+		:hover, .selected { background-color: #fff; }
+	}
+	.palette-outer { 
+		background-color: white;color:#4b4b4b; 
+		:hover, .selected { background-color: #fff; }
+	}
+	.palette-inner { 
+		background-color: white;color:#4b4b4b; 
+		:hover, .selected { background-color: #fff; }
+	}
+	.palette-token { 
+		background-color: white;color:#4b4b4b; 
+		a { color:#4b4b4b !important}
+		:hover, .selected { background-color: #fff; }
+	}
+	.palette-shadow {
+		-webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+		-moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+		box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+	}
+	.palette-rounded { -webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px; }
 }*/
 /*
-.theme-default
+.theme-default 
 .theme-default .palette-bordered { border: 1px solid #c1c1c1; }
 
 .theme-default .palette > h1, .theme-default .palette > h2, .theme-default .palette > h3, .theme-default .palette > h4, .theme-default .palette > h5, .theme-default .palette > h6 { margin: 10px 0; font-family: inherit; font-weight: bold; line-height: 20px; color: #4b4b4b; text-rendering: optimizelegibility; text-align:left; border-bottom:1px solid #c1c1c1; padding-bottom:20px; }
@@ -889,7 +889,7 @@
 
 h1 > a.right-heading-link, h2 > a.right-heading-link, h3 > a.right-heading-link, h4 > a.right-heading-link, h5 > a.right-heading-link, h6 > a.right-heading-link {float:right;color:#898989;font-style:underline; font-size:11px;}
 
-.theme-default .palette a:not(.close):not(.escape-color)  {color:#4b4b4b;font-weight:bold;}
+.theme-default .palette a:not(.close):not(.escape-color)	{color:#4b4b4b;font-weight:bold;}
 .theme-default .palette a:not(.close):not(.escape-color):hover {color:#005580;}
 
 .lnk { color: #fff; }
@@ -899,7 +899,7 @@ h1 > a.right-heading-link, h2 > a.right-heading-link, h3 > a.right-heading-link,
 .theme-default .palette .palette-inner a.title {color:#fff;}
 .theme-default .palette .palette-inner a.title:hover {color:orange;}
 
-.theme-default .palette a.sub-title {font-size:16px;}
+.theme-default .palette a.sub-title {font-size:16px;} 
 .theme-default .palette .palette-inner a.sub-title {color:#fff;}
 .theme-default .palette .palette-inner a.sub-title:hover {color:orange;}
 
