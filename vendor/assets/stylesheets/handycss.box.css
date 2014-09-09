@@ -36,14 +36,30 @@
   -moz-box-shadow: 2px 2px 5px #c1c1c1;
   box-shadow: 2px 2px 5px #c1c1c1;
 }
-.box h1.heading {
-  font-size: 18px;
-  color: #960D2E;
-  margin: 4px 2px;
+.box .heading1 {
+  font-size: 24px;
+  color: #428bca;
+  margin: 4px 0px;
 }
-.box a {
+.box .heading2 {
   font-size: 16px;
-  color: #1370AD;
+  color: #960D2E;
+  margin: 4px 0px;
+}
+.box .heading3 {
+  font-size: 14px;
+  color: #428bca;
+  margin: 4px 0px;
+}
+.box .heading4 {
+  font-size: 12px;
+  color: #960D2E;
+  margin: 4px 0px;
+  font-weight: bold;
+}
+.box .content {
+  font-size: 12px;
+  color: #960D2E;
 }
 
 .box.active {

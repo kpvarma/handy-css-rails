@@ -7,7 +7,7 @@ task :update do
 
   # Updating handyCSS
   url = "https://raw.github.com/kpvarma/handyCSS/master/css/handyCSS.css"
-  outputfile = "vendor/assets/stylesheets/handy-css-rails/handycss.css"
+  outputfile = "vendor/assets/stylesheets/handycss.css"
 
   open(outputfile, 'wb') do |file|
     file << open(url).read
@@ -15,7 +15,7 @@ task :update do
 
   # Updating box styles
   url = "https://raw.github.com/kpvarma/handyCSS/master/css/handyCSS.box.css"
-  outputfile = "vendor/assets/stylesheets/handy-css-rails/handycss.box.css"
+  outputfile = "vendor/assets/stylesheets/handycss.box.css"
 
   open(outputfile, 'wb') do |file|
     file << open(url).read
@@ -23,7 +23,7 @@ task :update do
 
   # Updating backdrops styles
   url = "https://raw.github.com/kpvarma/handyCSS/master/css/handyCSS.backdrops.css"
-  outputfile = "vendor/assets/stylesheets/handy-css-rails/handycss.backdrops.css"
+  outputfile = "vendor/assets/stylesheets/handycss.backdrops.css"
 
   open(outputfile, 'wb') do |file|
     file << open(url).read
